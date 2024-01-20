@@ -23,4 +23,4 @@ function askNotificationPermission() {
     });
   }
 }
-askNotificationPermission();
+notificationBtn.addEventListener("click", askNotificationPermission);
