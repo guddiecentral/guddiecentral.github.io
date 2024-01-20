@@ -18,7 +18,7 @@ function askNotificationPermission() {
   } else {
     Notification.requestPermission().then((permission) => {
       handlePermission(permission);
-      const notification = new Notification("Guddie Central", { body: "Thank you! We will be sure to notify you when we are finished." });
+      const notification = new Notification("Guddie Central", { body: "Thank you! We will be sure to notify you when we are finished.", icon: "/guddieclassic(no bg) HD.png" });
 
     });
   }
