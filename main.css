@@ -1,0 +1,10 @@
+#gudheader {
+    position: fixed;
+    left: 0px;
+    padding: 20px;
+}
+
+#main {
+    position: relative;
+    top: 100px;
+}
