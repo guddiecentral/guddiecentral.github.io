@@ -1,4 +1,6 @@
 #gudheader {
+    text-decoration: none;
+    color: black;
     position: fixed;
     left: 0px;
     padding: 20px;
@@ -10,11 +12,12 @@
 
 #main {
     position: relative;
-    top: 150px;
+    top: 200px;
 }
 
 .titletext {
+    position: relative;
+    top: -20px;
     padding: 20px;
-    font-family: 'Comic Sans';
     font-size: 50px;
 }
