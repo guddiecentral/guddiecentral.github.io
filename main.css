@@ -12,3 +12,9 @@
     position: relative;
     top: 150px;
 }
+
+.titletext {
+    padding: 20px;
+    font-family: 'Comic Sans';
+    font-size: 50px;
+}
